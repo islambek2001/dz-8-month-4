@@ -3,7 +3,6 @@ import React from "react";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import MainPage from "./pages/mainPage/MainPage";
 import BlogsPage from "./pages/blogsPage/BlogsPage";
-import Header from "./components/header/Header";
 import LoginPage from "./pages/loginPage/LoginPage";
 import Blog from "./components/blog/Blog";
 import Layout from "./components/layout/Layout";

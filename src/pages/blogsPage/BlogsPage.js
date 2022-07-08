@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {Link, Outlet} from "react-router-dom";
-import Header from "../../components/header/Header";
+
 
 function BlogsPage() {
     const [posts, setPosts] = useState([]);

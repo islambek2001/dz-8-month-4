@@ -1,0 +1,21 @@
+.wrapper {
+    width: 100%;
+    background: #ccc;
+    padding: 20px;
+}
+
+.menu {
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.link{
+    color: green;
+    font-size: 30px;
+}
+.link:global(.active) {
+    color: red;
+    font-weight: bolder;
+}

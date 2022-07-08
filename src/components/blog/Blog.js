@@ -25,7 +25,7 @@ function Blog() {
         <div className="container">
             <h1>{post.title}</h1>
             <p>{post.body}</p>
-            <button onClick={loginUser}>login</button>
+            <button onClick={loginUser}>back</button>
 
 
         </div>
